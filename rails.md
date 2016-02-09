@@ -1,6 +1,6 @@
 # Rails
 
-Ookami-api follows a simple set of coding style conventions:
+We follows a simple set of coding style conventions:
 
 * Use American English. See [a list of American and British English spelling differences here](http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences).
 * Two spaces, no tabs (for indentation).
