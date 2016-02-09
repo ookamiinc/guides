@@ -5,6 +5,6 @@
 * [Protocol](protocol.md)
    * [Git](protocol/git.md)
 * [Coding Style](coding_style.md)
-   * Rails
+   * [Rails](coding-style/rails.md)
 * [Contributing](CONTRIBUTING.md)
 
