@@ -2,6 +2,8 @@
 
 Guides for getting things done, programming well, and programming in style.
 
+You can see GitBook version on https://www.gitbook.com/book/ookami/guides/details.
+
 High level guidelines:
 
 * Be consistent.
