@@ -6,5 +6,4 @@
 * [Protocol](protocol.md)
    * [Git](protocol/git.md)
 * [Code Review](code_review.md)
-   * Code Review
 
