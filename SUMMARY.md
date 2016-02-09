@@ -5,6 +5,6 @@
 * [Second Chapter](chapter2.md)
 * [Protocol](protocol.md)
    * [Git](protocol/git.md)
-* Code Review
+* [Code Review](code_review.md)
    * Code Review
 
