@@ -4,5 +4,5 @@
 * [First Chapter](chapter1.md)
 * [Second Chapter](chapter2.md)
 * [Protocol](protocol.md)
-   * Git
+   * [Git](protocol/git.md)
 
