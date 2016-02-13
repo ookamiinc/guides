@@ -67,7 +67,7 @@ Ask for a code review in the project's chat room.
 ## Review Code
 
 A team member other than the author reviews the pull request. They follow
-[Code Review](Code Review) guidelines to avoid
+[Code Review](code_review.md) guidelines to avoid
 miscommunication.
 
 They make comments and ask questions directly on lines of code in the GitHub
