@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Code Review](code_review.md)
 * [Protocol](protocol.md)
-   * Communication
+   * [Communication](protocol/communication.md)
    * [Git](protocol/git.md)
 * [Coding Style](coding_style.md)
    * [Rails](coding-style/rails.md)
