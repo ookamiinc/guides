@@ -1,4 +1,4 @@
 # Protocol
 
-* [Communication](protocol/git.md)
+* [Communication](protocol/communication.md)
 * [Git](protocol/git.md)
