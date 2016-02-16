@@ -1,3 +1,3 @@
 # Coding Style
 
-* [Rails](coding-style/rails.md)
+* [Rails](coding_style/rails.md)
