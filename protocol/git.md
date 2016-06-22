@@ -64,6 +64,12 @@ Ask for a code review in the project's chat room.
 [good commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [GitHub pull request]: https://help.github.com/articles/using-pull-requests/
 
+### Branch name
+
+- Use lowercase
+- Use dash not underscore between words
+- Use descriptive name what you are going to do
+
 ## Review Code
 
 A team member other than the author reviews the pull request. They follow
