@@ -108,9 +108,13 @@ View a list of new commits. View changed files. Merge branch into master.
 
     git log origin/master..<branch-name>
     git diff --stat origin/master
+
+Merge branch into master by clicking "Merge pull request" button on your Pull Request page, or using hub commands from your terminal.
+
+Then, make your local master up-to-date.
+
     git checkout master
-    git merge <branch-name> --ff-only
-    git push
+    git pull
 
 Delete your remote feature branch.
 
