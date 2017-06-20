@@ -88,6 +88,7 @@ They make small changes right in the branch, test the feature on their machine,
 run tests, commit, and push.
 
 When satisfied, they comment on the pull request `Ready to merge.`
+After Approval, you can merge by yourself if you have the right to merge.
 
 ## Merge
 
