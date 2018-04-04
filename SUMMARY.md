@@ -7,5 +7,6 @@
    * [Git](protocol/git.md)
 * [Coding Style](coding_style.md)
    * [Rails](coding_style/rails.md)
+   * [Web](coding_style/web.md)
 * [Contributing](CONTRIBUTING.md)
 
