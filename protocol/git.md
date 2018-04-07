@@ -19,7 +19,7 @@ Please use American English. See [a list of American and British English spellin
 
 ## Write a Feature
 
-Create a local feature branch based off master.
+Create a local feature branch based off master or staging (if it exists).
 
     git checkout master
     git pull
