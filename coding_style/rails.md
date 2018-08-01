@@ -48,12 +48,15 @@ Just Run
     default_scope { where(active: true) }
 
     # constants come up next
-    GENDERS = %w(male female)
+    COLORS = %w(red green blue)
 
     # afterwards we put attr related macros
     attr_accessor :formatted_date_of_birth
 
     attr_accessible :login, :first_name, :last_name, :email, :password
+
+    # Rails4+ enums after attr macros, prefer the hash syntax
+    enum gender: { female: 0, male: 1 }
 
     # followed by association macros
     belongs_to :country
@@ -65,7 +68,7 @@ Just Run
     validates :username, presence: true
     validates :username, uniqueness: { case_sensitive: false }
     validates :username, format: { with: /\A[A-Za-z][A-Za-z0-9._-]{2,19}\z/ }
-    validates :password, format: { with: /\A\S{8,128}\z/, allow_nil: true}
+    validates :password, format: { with: /\A\S{8,128}\z/, allow_nil: true }
 
     # next we have callbacks
     before_save :cook
