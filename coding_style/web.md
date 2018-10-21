@@ -24,4 +24,4 @@ Use [Prettier](https://github.com/prettier/prettier)
 ## Role of package.json in each component directory
 
 package.json file has a role in navigating to main component file.
-Although `index.js` has same role, it follow convention of react-starter-kit.
+Although `index.js` has same role, we follow the convention of react-starter-kit.
