@@ -14,6 +14,8 @@ Please use American English. See [a list of American and British English spellin
 * Perform work in a feature branch.
 * Rebase frequently to incorporate upstream changes.
 * Use a [pull request] for code reviews.
+* We should make commit and pull requests as small as possible.
+* Do not make changes to multiple interests in a pull request.
 
 [pull request]: https://help.github.com/articles/using-pull-requests/
 
