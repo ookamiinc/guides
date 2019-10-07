@@ -20,8 +20,3 @@ Use [Prettier](https://github.com/prettier/prettier)
 
 * `.js` is only standard JS.
 * `.jsx` is files contain JSX.
-
-## Role of package.json in each component directory
-
-package.json file has a role in navigating to main component file.
-Although `index.js` has same role, we follow the convention of react-starter-kit.
