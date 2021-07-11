@@ -16,12 +16,68 @@ Just Run
 
 Use [Prettier](https://github.com/prettier/prettier)
 
-## JS file names
+## Coding style
+
+### extension
 
 * `.js` is only standard JS.
-* `.jsx` is files contain JSX.
+* `.jsx` is file contains JSX.
+* `.test.js` is unit test.
+* `.test.e2e.js` is e2e test.
+* `.worker.js` is web worker.
 
-## Role of package.json in each component directory
+### action type
 
-package.json file has a role in navigating to main component file.
-Although `index.js` has same role, we follow the convention of react-starter-kit.
+* `const FOO_BAR = 'FOO_BAR';`
+
+### src/components
+
+* directory structure
+```
+atoms/FooBar
+  |- FooBar.jsx
+  |- FooBar.scss
+  |- index.js`
+```
+
+### src/containers
+
+* file name: `FooBarContainer.jsx`
+* container name: `FooBarContainer`
+
+### src/hooks
+
+* file name: `useFooBar.js`
+* hooks name: `useFooBar`
+
+### src/selectors
+
+* file name: `fooBar.js`
+* selector name: `fooBarSelector`
+
+### tests
+
+* `describe` : grouping function and condition
+* prefer `it` instead of `test`
+
+ex) Button.test.jsx
+
+```
+describe('Button', () => {
+  it('renders button', () => {
+    const { button } = setup(props);
+    expect(button).toBeDefined();
+  });
+
+  it('calls onClick function', () => {
+    const { button } = setup(props);
+    fireEvent.click(button);
+    expect(props.onClick).toHaveBeenCalledTimes(1);
+  });
+
+  it('matches its snapshot', () => {
+    const { asFragment } = setup(props);
+    expect(asFragment()).toMatchSnapshot();
+  });
+});
+```
