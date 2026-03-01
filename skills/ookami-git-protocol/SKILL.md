@@ -9,7 +9,6 @@ description: >
 # Git Protocol
 
 Follow these conventions for all git operations.
-See `protocol/git.md` for the full reference.
 
 We use [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html).
 
