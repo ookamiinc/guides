@@ -9,6 +9,7 @@ description: >
 # Rails Coding Style
 
 Follow these conventions when writing Ruby/Rails code.
+Full reference: https://github.com/ookamiinc/guides/blob/master/coding_style/rails.md
 
 ## General Style
 
