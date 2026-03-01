@@ -1,6 +1,6 @@
 # Rails / RSpec Reference
 
-Based on [Better Specs](https://www.betterspecs.org/).
+Based on [Better Specs](https://www.betterspecs.org/) with ookami-specific additions.
 
 ---
 
