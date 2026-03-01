@@ -101,7 +101,7 @@ end
 ```ruby
 # Isolated — preferred for unit tests
 it { is_expected.to respond_with_content_type(:json) }
-it { is_expected.to assign_to(:resource) }
+it { is_expected.to have_http_status(:ok) }
 
 # Grouped — acceptable for integration tests
 it 'creates a resource' do
