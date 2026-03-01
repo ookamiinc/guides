@@ -1,9 +1,12 @@
 ---
 name: ookami-coding-style-web
 description: >
-  ookami team web frontend coding style conventions. Use when writing,
-  modifying, or reviewing JavaScript, JSX, SCSS, React components, hooks,
-  selectors, containers, or frontend test files.
+  ookami team web frontend coding style conventions. Use this skill whenever
+  writing, modifying, or reviewing JavaScript, JSX, SCSS, React components,
+  hooks, selectors, containers, or frontend test files. Also use when the user
+  asks about React component structure, Atomic Design conventions, CSS Modules,
+  Prettier formatting, Airbnb style guide usage, file naming for .jsx/.js/.scss,
+  or how to structure frontend tests with describe/it.
 ---
 
 # Web Coding Style
