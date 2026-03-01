@@ -1,5 +1,5 @@
 ---
-name: unit-testing
+name: ookami-unit-testing
 description: >
   Comprehensive guide for writing high-quality unit tests across any tech stack.
   Use this skill whenever the user asks about: writing tests, what to test, how to structure tests,
