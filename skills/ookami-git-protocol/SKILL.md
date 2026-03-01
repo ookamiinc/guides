@@ -1,9 +1,11 @@
 ---
 name: ookami-git-protocol
 description: >
-  ookami team git and branch workflow conventions. Use when creating branches,
-  writing commit messages, creating pull requests, merging branches, or
-  performing any git version control operations.
+  ookami team git and branch workflow conventions. Use this skill whenever
+  creating or naming branches, writing commit messages, creating or merging
+  pull requests, rebasing, squashing commits, or performing any git operations.
+  Also use when the user asks about branch naming conventions, commit message
+  format, PR workflow, merge strategy, or GitHub Flow practices.
 ---
 
 # Git Protocol
