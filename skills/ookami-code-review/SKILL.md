@@ -1,9 +1,11 @@
 ---
 name: ookami-code-review
 description: >
-  ookami team code review guidelines. Use when reviewing pull requests,
-  giving code review feedback, preparing code for review, or commenting
-  on someone else's code changes.
+  ookami team code review guidelines. Use this skill whenever reviewing pull
+  requests, giving or receiving PR feedback, writing review comments, approving
+  or requesting changes on a PR, preparing code for review, or discussing code
+  review etiquette. Also use when the user asks about how to phrase review
+  comments, how to respond to feedback, or best practices for code reviews.
 ---
 
 # Code Review Guide
