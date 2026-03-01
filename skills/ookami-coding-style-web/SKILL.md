@@ -9,6 +9,7 @@ description: >
 # Web Coding Style
 
 Follow these conventions when writing web frontend code.
+Full reference: https://github.com/ookamiinc/guides/blob/master/coding_style/web.md
 
 ## General
 
