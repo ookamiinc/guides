@@ -1,9 +1,11 @@
 ---
 name: ookami-coding-style-rails
 description: >
-  ookami team Rails and Ruby coding style conventions. Use when writing,
-  modifying, or reviewing Ruby or Rails code, including models, controllers,
-  configurations, and migrations.
+  ookami team Rails and Ruby coding style conventions. Use this skill whenever
+  writing, modifying, or reviewing Ruby or Rails code — including models,
+  controllers, configurations, migrations, and initializers. Also use when the
+  user asks about Ruby style, ActiveRecord model ordering, hash syntax, rubocop
+  settings, or Rails project structure conventions.
 ---
 
 # Rails Coding Style
