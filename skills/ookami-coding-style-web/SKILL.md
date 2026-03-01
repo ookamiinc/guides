@@ -9,7 +9,6 @@ description: >
 # Web Coding Style
 
 Follow these conventions when writing web frontend code.
-See `coding_style/web.md` for the full reference.
 
 ## General
 
