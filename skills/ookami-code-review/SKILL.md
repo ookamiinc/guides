@@ -9,6 +9,7 @@ description: >
 # Code Review Guide
 
 Follow these guidelines when reviewing code or having your code reviewed.
+Full reference: https://github.com/ookamiinc/guides/blob/master/code_review.md
 
 ## General Etiquette (Everyone)
 
