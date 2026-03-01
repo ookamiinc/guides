@@ -283,8 +283,6 @@ Extract recurring test setup into shared helpers to reduce duplication and impro
 
 Best for: new features, bug fixes (reproduce the bug first), complex algorithms.
 
-> If `superpowers:test-driven-development` is installed, defer to that skill for strict TDD workflow enforcement.
-
 ---
 
 ## 10. Diagnostics
