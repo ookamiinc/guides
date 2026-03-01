@@ -147,7 +147,7 @@ user = create(:user)
 # Better — build (no DB hit)
 user = build(:user)
 
-# Best — build_stubbed (fastest, read-only)
+# Fastest — build_stubbed (read-only, no DB callbacks/associations)
 user = build_stubbed(:user)
 ```
 
@@ -352,7 +352,7 @@ expect { action }.not_to raise_error
 
 | Strategy | Speed | When to Use |
 |---|---|---|
-| `build_stubbed` | Fastest | Read-only, no DB needed |
+| `build_stubbed` | Fastest | Read-only, no DB callbacks/associations/persistence needed |
 | `build` | Fast | In-memory, no persistence needed |
 | `create` | Slow | Record must exist in DB |
 | `create_list` | Slowest | Multiple records needed |
