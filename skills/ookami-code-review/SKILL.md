@@ -9,7 +9,6 @@ description: >
 # Code Review Guide
 
 Follow these guidelines when reviewing code or having your code reviewed.
-See `code_review.md` for the full reference.
 
 ## General Etiquette (Everyone)
 
