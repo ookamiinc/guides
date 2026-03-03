@@ -141,6 +141,20 @@ Tests have three semantic levels. Use distinct keywords for each:
 
 **Test names describe only the outcome** — never repeat the condition. Conditions belong in `context` blocks.
 
+**`context` names describe only the condition** — never include outcome words like `returns`, `sets`, `throws`, or `shows`. These belong in `test`/`it` names. This keeps a clear separation: `context` = input/condition, `test` = output/outcome.
+
+```
+// BAD — outcome word in context name
+context('when connectivity check returns online', () {
+  test('sets state to false', () { ... });
+});
+
+// GOOD — context describes only the condition
+context('when device is online', () {
+  test('sets state to false', () { ... });
+});
+```
+
 ```dart
 // BAD — condition flattened into the test name
 group('FeaturedNewsCard', () {
@@ -309,6 +323,7 @@ Best for: new features, bug fixes (reproduce the bug first), complex algorithms.
 
 - [ ] `describe` is used for the test target, `context` for conditions — not raw `group` everywhere
 - [ ] Conditions are expressed in `context` blocks, not flattened into test names
+- [ ] `context`/`when` names contain only conditions — no outcome words (`returns`, `sets`, `throws`, `shows`)
 - [ ] Test name describes behavior, not implementation
 - [ ] Each test is focused on one behavior
 - [ ] Setup is minimal — only what this test needs
@@ -336,3 +351,4 @@ Best for: new features, bug fixes (reproduce the bug first), complex algorithms.
 | Testing trivial code | Maintenance cost > value | Focus on domain logic |
 | Flat outcome groups | Sub-cases at same level as parent category obscure the decision tree | Nest sub-cases under their parent outcome |
 | Condition in test name | Duplicates context across siblings, makes names long | Move condition to `context`/`group`, keep test name as outcome only |
+| Outcome word in `context` name | Blurs the line between condition and outcome (`when X returns Y`) | Keep `context` for conditions only; use `returns`/`sets`/`throws` in `test`/`it` |
